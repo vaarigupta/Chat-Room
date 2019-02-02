@@ -15,5 +15,8 @@
   "bugs": {
     "url": "https://github.com/vaarigupta/Socket_IO/issues"
   },
-  "homepage": "https://github.com/vaarigupta/Socket_IO#readme"
+  "homepage": "https://github.com/vaarigupta/Socket_IO#readme",
+  "dependencies": {
+    "express": "^4.16.4"
+  }
 }
