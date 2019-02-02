@@ -4,7 +4,12 @@
   "description": "Basic Chat App using Socket.io ",
   "main": "index.js",
   "scripts": {
+    "start" : "node server/server.js",
     "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "engines":
+  {
+    "node":"8.15.0"
   },
   "repository": {
     "type": "git",
