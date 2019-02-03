@@ -1,15 +1,26 @@
 const express = require('express');
 const path = require('path');
+const socket = require('socket.io');
 var publicPath = path.join(__dirname , '../public');
+var PORT = 3000;
+
+/// Express Set up
 var app = express();
-
-var PORT = process.env.PORT || 3000;
+var server = app.listen(3000 , ()=>{
+  console.log(`listening on port 3000`);
+})
+//Serving Static Content - All the Content in Public Folder
 app.use(express.static(publicPath));
-app.use((req,res,next)=>{
-  res.send("<h1>Welcome to Chat App</h1>");
-  next();
+
+
+///Set up webSocket at Server
+var io = socket(server);
+
+io.on('connection',(socketClient)=>{
+  console.log("Client Connected - " , socketClient.id);
 })
 
-app.listen(PORT , ()=>{
-  console.log(`up on port ${PORT}`);
-})
+
+// io.on('disconnection',(socketClient)=>{
+//   console.log("Client Disconnected - " , socketClient.id)
+// })
