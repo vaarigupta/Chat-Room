@@ -1,4 +1,5 @@
-var socketClient = io.connect('http://localhost:3000');
+var url = 'http://localhost:3000' || 'https://ancient-ravine-11480.herokuapp.com/';
+var socketClient = io.connect(url);
 
 var output = document.getElementById('output'),
  user = document.getElementById('user'),
