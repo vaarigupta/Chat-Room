@@ -18,7 +18,12 @@ var io = socket(server);
 
 io.on('connection',(socketClient)=>{
   console.log("Client Connected - " , socketClient.id);
+
   socketClient.on('chat',(data)=>{
     io.sockets.emit('chat',data);
+  })
+
+  socketClient.on('typing',(user)=>{
+    socketClient.broadcast.emit('typing',user);
   })
 })
