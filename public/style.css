@@ -1,0 +1,57 @@
+#main
+{
+  text-align: center;
+}
+
+#box
+{
+  /* position: absolute;
+  left: 50%;
+  margin-left: 50px; */
+  /* margin: 0 auto; */
+  display: inline-block;
+  border:black 3px solid;
+  margin: 20px 100px 20px 100px;
+  padding: 20px 20px 20px 20px;
+  width: 50%;
+  height: 50%;
+  background-color: rgb(0,256,150);
+}
+
+#Heading
+{
+  text-align: center;
+  color:blue;
+  font-weight: 400;
+  font-size: 30px;
+  font-family: monospace;
+
+}
+#output
+{
+  width: 80%;
+  height: 80%;
+  margin: 20px 20px 20px 20px;
+}
+#user
+{
+  align: center;
+  padding: 20px 20px 20px 20px;
+  font-size: 20px;
+  /* width: 70%; */
+  color: blue;
+}
+button
+{
+float: left;
+
+}
+#message
+{
+  align: center;
+  padding: 20px 20px 20px 20px;
+  font-size: 20px;
+  /* width: 70%; */
+  color: blue;
+
+}
