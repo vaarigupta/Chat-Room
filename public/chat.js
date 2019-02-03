@@ -13,4 +13,10 @@ var output = document.getElementById('output'),
     message:message.value,
     user : user.value
   })
+  message : ""
+})
+
+
+socketClient.on('chat',function(data){
+  output.innerHTML += "<p><b>"+ data.user + "</b> : " + data.message + "</p>" ;
 })

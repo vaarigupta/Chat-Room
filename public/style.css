@@ -1,3 +1,8 @@
+body
+{
+  background-image: url('https://www.planwallpaper.com/static/images/3865967-wallpaper-full-hd_XNgM7er.jpg');
+}
+
 #main
 {
   text-align: center;
@@ -21,7 +26,7 @@
 #Heading
 {
   text-align: center;
-  color:blue;
+  color:yellow;
   font-weight: 400;
   font-size: 30px;
   font-family: monospace;
@@ -29,14 +34,14 @@
 }
 #output
 {
-  width: 80%;
   height: 80%;
   margin: 20px 20px 20px 20px;
+  text-align: left;
 }
 #user
 {
   align: center;
-  padding: 20px 20px 20px 20px;
+  padding: 20px 10px 20px 10px;
   font-size: 20px;
   /* width: 70%; */
   color: blue;
@@ -49,7 +54,7 @@ float: left;
 #message
 {
   align: center;
-  padding: 20px 20px 20px 20px;
+  padding: 5px 10px 5px 10px;
   font-size: 20px;
   /* width: 70%; */
   color: blue;
