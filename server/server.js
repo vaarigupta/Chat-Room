@@ -18,9 +18,7 @@ var io = socket(server);
 
 io.on('connection',(socketClient)=>{
   console.log("Client Connected - " , socketClient.id);
+  socketClient.on('chat',(data)=>{
+    io.sockets.emit('chat',data);
+  })
 })
-
-
-// io.on('disconnection',(socketClient)=>{
-//   console.log("Client Disconnected - " , socketClient.id)
-// })
