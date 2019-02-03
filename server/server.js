@@ -2,12 +2,12 @@ const express = require('express');
 const path = require('path');
 const socket = require('socket.io');
 var publicPath = path.join(__dirname , '../public');
-var PORT = 3000;
+var PORT = process.env.PORT || 3000;
 
 /// Express Set up
 var app = express();
-var server = app.listen(3000 , ()=>{
-  console.log(`listening on port 3000`);
+var server = app.listen(PORT , ()=>{
+  console.log(`listening on port ${PORT}`);
 })
 //Serving Static Content - All the Content in Public Folder
 app.use(express.static(publicPath));

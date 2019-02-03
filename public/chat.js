@@ -6,18 +6,27 @@ var output = document.getElementById('output'),
  but = document.getElementById('but'),
  feedback=document.getElementById('feedback');
 
+ message.addEventListener('keypress',function()
+ {
+   socketClient.emit('typing',user.value);
+ })
+
 
 but.addEventListener('click',function(){
   socketClient.emit('chat',{
     message:message.value,
     user: user.value
   })
+  message.value= "";
 })
 
-message.addEventListener('keypress',function()
+
+socketClient.on('typing',function(user)
 {
-  socket.emit('typing',user.value);
+  feedback.innerHTML = "<p>" + user + " is typing message ... </p>";
 })
+
 socketClient.on('chat',function(data){
+  feedback.innerHTML = "";
   output.innerHTML += "<p><b>"+ data.user + "</b> : " + data.message + "</p>" ;
 })
