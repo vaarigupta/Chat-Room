@@ -20,13 +20,8 @@ Inside the server directory
 ```
 node server
 ```
-<<<<<<< HEAD
-SNAPSHOTS :-
-![Snapshots](/ChatApp.png)
-=======
 
 SNAPSHOT
 
 ![Chat Room ](https://github.com/vaarigupta/ChatRoom_Socket/blob/master/ChatApp.png)
 
->>>>>>> ac248f8d18a5c4d262a95db24fff042b08566b81
