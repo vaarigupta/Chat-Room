@@ -25,4 +25,4 @@ SNAPSHOT
 
 ![Chat Room ](https://github.com/vaarigupta/ChatRoom_Socket/blob/master/ChatApp.png)
 
-![Typing Message Displayed] (https://github.com/vaarigupta/ChatRoom_Socket/blob/master/chatApp1.png)
+![Typing Message Displayed](https://github.com/vaarigupta/ChatRoom_Socket/blob/master/chatApp1.png)
