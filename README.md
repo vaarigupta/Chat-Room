@@ -21,7 +21,7 @@ Inside the server directory
 node server
 ```
 
-SNAPSHOT
+## SNAPSHOT
 
 ![Chat Room ](https://github.com/vaarigupta/ChatRoom_Socket/blob/master/ChatApp.png)
 
