@@ -21,4 +21,4 @@ Inside the server directory
 node server
 ```
 SNAPSHOTS :-
-[Snapshots](/ChatApp.png)
+![Snapshots](/ChatApp.png)
