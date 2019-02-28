@@ -1,4 +1,4 @@
-var url = 'http://localhost:3000' || 'https://ancient-ravine-11480.herokuapp.com/';
+var url = 'http://localhost:3000';
 var socketClient = io.connect(url);
 
 var output = document.getElementById('output'),

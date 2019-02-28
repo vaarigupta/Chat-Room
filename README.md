@@ -23,5 +23,4 @@ node server
 
 ## SNAPSHOT
 
-![Chat Room ](https://github.com/vaarigupta/ChatRoom_Socket/blob/master/ChatApp.png)
-
+![Chat Room ](/chat1.png)
