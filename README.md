@@ -23,4 +23,4 @@ node server
 
 ## SNAPSHOT
 
-![Chat Room ](/chat1.png)
+![Chat Room ](./Chat1.png)
