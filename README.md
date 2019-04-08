@@ -1,5 +1,5 @@
 # ChatRoom
-Chatting is most commen these days . So I have provided that functionality to my project which allows users to send and receives messages in Real Time
+Chatting is most common these days . So I have provided that functionality to my project which allows users to send and receives messages in Real Time
 
 ## Remarkable functionality
 The one who's typing the message is displayed to all the users who are currently available online like in whatsapp
